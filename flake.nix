@@ -33,7 +33,7 @@
 
   # auto-fetch deps when `nix run/shell`ing
   nixConfig = {
-    extra-substituters = ["https://nix-gaming.cachix.org"];
-    extra-trusted-public-keys = ["nix-gaming.cachix.org-1:nbjlureqMbRAxR1gJ/f3hxemL9svXaZF/Ees8vCUUs4="];
+    extra-substituters = ["https://lunya.cachix.org"];
+    extra-trusted-public-keys = ["lunya.cachix.org-1:dfij+/AsTSBE9hCPNIDd7dVGHpMi2P2HKSFIYUl5Zoo="];
   };
 }
