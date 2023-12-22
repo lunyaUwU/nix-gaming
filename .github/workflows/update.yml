@@ -7,7 +7,7 @@ on:
 
 jobs:
   update:
-    if: github.repository == 'lunyaUwU/nix-gaming'
+    if: github.repository == 'lunyaUwU/repo'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
