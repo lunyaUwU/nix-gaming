@@ -61,7 +61,7 @@
         wine = config.packages.wine-osu;
         wine-discord-ipc-bridge = config.packages.wine-discord-ipc-bridge.override {wine = config.packages.wine-osu;};
       };
-      
+
       osu-stable-ll = pkgs.callPackage ./osu-stable-ll {
         inherit (config.packages) osu-mime;
         wine = config.packages.wine-osu;

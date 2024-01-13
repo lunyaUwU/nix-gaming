@@ -59,14 +59,14 @@
       tar -xzvf ${dxvk}
       cp -r dxvk-1.7.1/x64/* $WINEPREFIX/drive_c/windows/system/
       cp -r dxvk-1.7.1/x32/* $WINEPREFIX/drive_c/windows/system/
-            
+
       wineserver -k
       wine regedit dsound.reg
-      
+
       # install osu
       wine ${src}
       wineserver -k
-      
+
       mv "$WINEPREFIX/drive_c/users/$USER/AppData/Local/osu!" $WINEPREFIX/drive_c/osu
     fi
 
